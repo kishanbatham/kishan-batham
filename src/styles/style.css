@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left-side{
+    background-color:black;
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+     color: white;
+}
+
+.left-side .image{
+    width:150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    margin-left:65px;
+    margin-top:20px;
+}
+h2{
+   
+    text-align: center;
+    margin-top:10px;
+}
+
+.social-media-icons{
+    
+    
+    font-size: 22px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+}
+
+.social-media-icons span{
+    background-color: gray;
+    display: flex;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    background-color: white;
+}
+
+.button{
+    margin-left:10px;
+    margin-top: 20px;
+    padding: 3px;
+    font-size: 20px;
+}
+.button div{
+    margin-top:25px;
+}
+.button div span{
+    margin-left: 7px;
+    
+}
+
+.button a{
+    text-decoration: none;
+    color:white;
+}
+
+.bi-house{
+    color:lightskyblue;
+}
+
+a:hover .bi{
+    color:lightskyblue;
+}
+/* Right Side Work is End */
+
+.right-side{
+    background-color: red;
+    height: 100vh;
+}
+
+.right-side .section-1{
+    background-image:url("../../public/images/banner-image.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-left:300px;
+}
+.shade{
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    color:white;
+    margin-left:30px;
+   
+}
+
+.section-2{
+    height: 100vh;
+    margin-left:300px;
+    background-color: white;
+}
+
+.about{
+    padding: 10px;
+    
+}
+.about .about-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about p{
+    text-transform: capitalize;
+    text-align: justify;
+    margin-left:20px;
+    margin-right: 20px;
+}
