@@ -127,6 +127,10 @@ a:hover .bi{
     margin-right: 20px;
 }
 
+header{
+    display: none;
+}
+
 @media screen and (orientation: portrait) {
 
     .left-side{
@@ -142,14 +146,14 @@ a:hover .bi{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 50vh;
+    height: 100vh;
     margin-left:0px;
 }
 
     .shade{
     background-color: rgba(0,0,0,0.5);
     width:100%;
-    height:50vh;
+    height:100vh;
     display: flex;
     align-items: center;
 }
@@ -158,10 +162,12 @@ a:hover .bi{
     height: 100vh;
     margin-left:0px;
     background-color: white;
+    
 }
 
 .about{
     padding: 10px;
+    padding-top: 50px;
     
 }
 .about .about-title{
@@ -174,6 +180,32 @@ a:hover .bi{
     text-align: justify;
     margin-left:20px;
     margin-right: 20px;
+    margin-top:10px;
 }
+
+header{
+    display: block;
+    background-color: black;
+    padding: 10px;
+    font-size:20px;
+    position:fixed;
+    top:0;
+    width:100%;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+
+nav a:hover{
+    color:lightblue;
+}
+
     
 }
