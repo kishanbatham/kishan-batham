@@ -75,6 +75,8 @@ h2{
 a:hover .bi{
     color:lightskyblue;
 }
+
+
 /* Right Side Work is End */
 
 .right-side{
@@ -123,4 +125,55 @@ a:hover .bi{
     text-align: justify;
     margin-left:20px;
     margin-right: 20px;
+}
+
+@media screen and (orientation: portrait) {
+
+    .left-side{
+        display: none;
+    }
+    .right-side{
+        background-color: white;
+        height: 100vh;
+
+    }
+    .right-side .section-1{
+    background-image:url("../../public/images/banner-image.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    margin-left:0px;
+}
+
+    .shade{
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    height:50vh;
+    display: flex;
+    align-items: center;
+}
+
+    .section-2{
+    height: 100vh;
+    margin-left:0px;
+    background-color: white;
+}
+
+.about{
+    padding: 10px;
+    
+}
+.about .about-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about p{
+    text-transform: capitalize;
+    text-align: justify;
+    margin-left:20px;
+    margin-right: 20px;
+}
+    
 }
