@@ -44,6 +44,14 @@ h2{
     justify-content: center;
     align-items: center;
 }
+.social-media-icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-media-icons a:hover{
+    color:white;
+}
 
 .home{
     background-color: white;
@@ -72,7 +80,7 @@ h2{
     color:lightskyblue;
 }
 
-a:hover .bi{
+.button a:hover .bi{
     color:lightskyblue;
 }
 
@@ -160,6 +168,15 @@ header{
     display: none;
 }
 
+.section-3{
+    height: 100vh;
+    margin-left:300px;
+}
+
+.contact-page{
+
+}
+
 @media screen and (orientation: portrait) {
 
     .left-side{
@@ -188,9 +205,10 @@ header{
 }
 
     .section-2{
-    height: 100vh;
+    height:auto;
     margin-left:0px;
     background-color: white;
+
     
 }
 
@@ -271,6 +289,41 @@ dt{
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
+}
+
+
+.section-3{
+    height: 100vh;
+    margin-left: 0px;
+    
+}
+
+.contact-page{
+    font-size: 25px;
+    padding-top: 50px;
+    font-weight: bold;
+
+    
+}
+
+.course{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.c-title{
+    font-weight: bold;
+}
+
+.other-skills{
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+ul li{
+    margin-top: 10px;
 }
 
     
